@@ -2,7 +2,7 @@
 
 **Build Studio** is an advanced, extensible desktop and CLI application for configuring, managing, and executing multi-platform software builds from a unified interface. Built with Tauri, SvelteKit, and Rust.
 
-![Build Studio](https://placehold.co/800x400?text=Build+Studio+Interface)
+![Build Studio](assets/interface.png)
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/hmjahid/build-studio)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
@@ -273,10 +273,10 @@ Connect to remote build servers for distributed builds:
    ```bash
    # Generate SSH key pair (if you don't have one)
    ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
-   
+
    # Copy public key to remote server
    ssh-copy-id username@remote-server-ip
-   
+
    # Test connection
    ssh username@remote-server-ip
    ```
