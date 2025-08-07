@@ -1,0 +1,17 @@
+{
+  "name": "Sample Go Toolchain",
+  "author": "Build Studio Team",
+  "version": "1.0.0",
+  "description": "Provides support for building Go projects with cross-compilation support.",
+  "commands": [
+    {
+      "name": "build-go",
+      "description": "Build Go project for specified platform",
+      "script": "build.sh"
+    }
+  ],
+  "platforms": ["linux", "windows", "macos", "webassembly"],
+  "dependencies": [
+    "go>=1.18"
+  ]
+}
